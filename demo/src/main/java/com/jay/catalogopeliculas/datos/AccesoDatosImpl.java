@@ -15,7 +15,7 @@ import com.jay.catalogopeliculas.exepciones.AccesoDatosEx;
 import com.jay.catalogopeliculas.exepciones.EscrituraDatosEx;
 import com.jay.catalogopeliculas.exepciones.LecturaDatosEx;
 
-public class AccesoDatosImpl implements AcessoDatosI {
+public class AccesoDatosImpl implements AccesoDatosI {
 
     @Override
     public boolean existe(String nombreRecurso) {

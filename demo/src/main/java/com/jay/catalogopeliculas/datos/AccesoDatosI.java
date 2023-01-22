@@ -7,7 +7,7 @@ import com.jay.catalogopeliculas.exepciones.AccesoDatosEx;
 import com.jay.catalogopeliculas.exepciones.EscrituraDatosEx;
 import com.jay.catalogopeliculas.exepciones.LecturaDatosEx;
 
-public interface AcessoDatosI {
+public interface AccesoDatosI {
     boolean existe(String nombreRecurso) throws AccesoDatosEx;
 
     List<Pelicula> listar(String nombreRecurso) throws LecturaDatosEx;
